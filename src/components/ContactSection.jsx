@@ -77,7 +77,7 @@ export const ContactSection = () => {
 
                 <div className="bg-card p-8 rounded-lg shadow-xs">
                     <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
-                    <form className="space-y-6">
+                    <form action="https://formsubmit.co/aakarshvermaav05@gmail.com" method="POST" className="space-y-6">
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
                             <input type="text" id='name'  name="name" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary" placeholder="Aakarsh verma"/>
@@ -97,6 +97,9 @@ export const ContactSection = () => {
                             <Send size={16}/>
                         </button>
                     </form>
+
+
+                    
 
                 </div>
             </div>
