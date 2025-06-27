@@ -7,7 +7,7 @@ const projects=[
         description: "A smart dashboard for students to view their results and performance over time.",
         image: "/Projects/dashbored.png",
         tags: ["Power BI", "Data Analysis", "Dashboard"],
-        demoUrl:"https://tinyurl.com/Dashboard-projects",
+        demoUrl:"https://tinyurl.com/Studentdashbored",
     },
     {
         id:2,
