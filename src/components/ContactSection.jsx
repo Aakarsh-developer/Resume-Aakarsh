@@ -1,7 +1,31 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin, Instagram, Twitter, Send } from "lucide-react";
+import { useState } from "react";
 
 export const ContactSection = () => {
-    return (
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await fetch("http://localhost:5000/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const result = await res.text();
+      alert(result);
+      setFormData({ name: "", email: "", message: "" }); // reset form
+    } catch (err) {
+      console.error(err);
+      alert("Failed to send message.");
+    }
+  };
+
+  return (
         <section className="py-24 px-4 relative bg-secondary/30" id="contact">
             <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl mb-4 text-center">
@@ -66,7 +90,7 @@ export const ContactSection = () => {
                                 <Instagram/> 
                             </a>
 
-                            <a href="https://x.com/Aakarshver05" target="_blank">
+                            <a href="https://x.com/Aakarshvermaav05@gmail.com" target="_blank">
                                 <Twitter/> 
                             </a>
                         </div>
@@ -77,34 +101,29 @@ export const ContactSection = () => {
 
                 <div className="bg-card p-8 rounded-lg shadow-xs">
                     <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
-                    <form action="https://formsubmit.co/aakarshvermaav05@gmail.com" method="POST" className="space-y-6">
+                    <form onSubmit={handleSubmit} className="space-y-6">
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
-                            <input type="text" id='name'  name="name" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary" placeholder="Aakarsh verma"/>
+                            <input type="text" id='name'  name="name" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary" placeholder="Name" value={formData.name} onChange={handleChange}/>
                         </div>
 
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Your Email</label>
-                            <input type="email" id='email'  name="email" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary" placeholder="abcd@gmail.com"/>
+                            <input type="email" id='email'  name="email" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary" placeholder="abcd@gmail.com"  value={formData.email} onChange={handleChange}/>
                         </div>
 
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Your Message</label>
-                            <textarea type="text" id='message'  name="message" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary resize-none" placeholder="Hello, I'd like to talk about...."/>
+                            <textarea type="text" id='message'  name="message" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-primary resize-none" placeholder="Hello, I'd like to talk about...." value={formData.message} onChange={handleChange}/>
                         </div>
                         <button type="submit" className="cosmic-button w-full flex items-center justify-center gap-2">
                             Send Message
                             <Send size={16}/>
                         </button>
                     </form>
-
-
-                    
-
                 </div>
             </div>
-
             </div>
         </section>
-    )
-}
+    );
+};
