@@ -46,7 +46,7 @@ export const AboutSection = () => {
                             <User className="h-6 w-6 textprimary-"/>
                             </div>
                              <div className="text-left">
-                                <h4 className="font-semibold text-lg">World Problem</h4>
+                                <h4 className="font-semibold text-lg">World Problems</h4>
                                 <p className=""text-muted-foreground>I am Dsa problem solver and real life problem solver with my Web Development knowledge</p>
                             </div>
                         </div>
