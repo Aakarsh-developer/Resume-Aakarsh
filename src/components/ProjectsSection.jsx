@@ -16,7 +16,7 @@ const projects=[
         description: "A personal portfolio website to showcase my skills and projects.",
         image: "/Projects/portfolio.png",
         tags: ["React", "Portfolio", "Web Development"],
-        demoUrl:"#",
+        demoUrl:"https://resume-plum-gamma.vercel.app/#projects",
         gitHubUrl: "https://github.com/Aakarsh-developer/Aakarsh-portfolio"
     },
     {
