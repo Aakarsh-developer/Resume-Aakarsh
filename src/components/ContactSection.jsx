@@ -37,7 +37,7 @@ export const ContactSection = () => {
 
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-11">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-11 ">
                 <div className="space-y-8">
                     <h3 className="test-2xl font-semibold mb-6"> Contact Information</h3>
 
@@ -99,7 +99,7 @@ export const ContactSection = () => {
 
                 </div>
 
-                <div className="bg-card p-8 rounded-lg shadow-xs">
+                {/* <div className="bg-card p-8 rounded-lg shadow-xs">
                     <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div>
@@ -121,7 +121,7 @@ export const ContactSection = () => {
                             <Send size={16}/>
                         </button>
                     </form>
-                </div>
+                </div> */}
             </div>
             </div>
         </section>

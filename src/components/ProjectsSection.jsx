@@ -3,31 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects=[
     {
         id:1,
-        title: "Student result dashboard",
-        description: "A smart dashboard for students to view their results and performance over time.",
-        image: "/Projects/dashbored.png",
-        tags: ["Power BI", "Data Analysis", "Dashboard"],
-        demoUrl:"https://tinyurl.com/Studentdashbored",
+        title: "Virtual-Herbal-Garden",
+        description: "Interactive 3D herbal plant website using React, Three.js, Tailwind CSS, Clerk auth, and Gemini AI for smart plant insights.",
+        image: "/Projects/virtualherbalgarden.png",
+        tags: ["React", "Portfolio", "Web Development"],
+        demoUrl:"https://virtual-herbal-garden-tour.vercel.app/",
+        gitHubUrl: "https://github.com/Aakarsh-developer/Verbal-Garden"
     },
     {
         id:2,
-        title: "QuickCart",
-        description: "A smart E-commerce website where the spinning wheel is to get discout=nt at all products.",
-        image: "/Projects/QuickCart.png",
-        tags: ["React", "E-commerce", "Web Development"],
-        demoUrl:"https://e-commerce-ns.vercel.app/",
-        gitHubUrl: "https://github.com/Aakarsh-developer/E-commerce-"
-    },{
-        id:3,
-        title: "Crud operations",
-        description: "A simple CRUD application to perform Create, Read, Update and Delete operations on hotel booking data.",
-        image: "/Projects/hotel.png",
-        tags: ["PHP", "CRUD", "Web Development"],
-        demoUrl:"https://crud-operations.kesug.com/index.php",
-        gitHubUrl: "https://github.com/Aakarsh-developer/CRUD-operations"
-    },
-    {
-        id:4,
         title: "Portfolio",
         description: "A personal portfolio website to showcase my skills and projects.",
         image: "/Projects/portfolio.png",
@@ -35,6 +19,32 @@ const projects=[
         demoUrl:"#",
         gitHubUrl: "https://github.com/Aakarsh-developer/Aakarsh-portfolio"
     },
+    {
+        id:3,
+        title: "Student result dashboard",
+        description: "A smart dashboard for students to view their results and performance over time.",
+        image: "/Projects/dashbored.png",
+        tags: ["Power BI", "Data Analysis", "Dashboard"],
+        demoUrl:"https://tinyurl.com/Studentdashbored",
+    },
+    {
+        id:4,
+        title: "QuickCart",
+        description: "A smart E-commerce website where the spinning wheel is to get discout=nt at all products.",
+        image: "/Projects/QuickCart.png",
+        tags: ["React", "E-commerce", "Web Development"],
+        demoUrl:"https://e-commerce-ns.vercel.app/",
+        gitHubUrl: "https://github.com/Aakarsh-developer/E-commerce-"
+    },{
+        id:5,
+        title: "Crud operations",
+        description: "A simple CRUD application to perform Create, Read, Update and Delete operations on hotel booking data.",
+        image: "/Projects/hotel.png",
+        tags: ["PHP", "CRUD", "Web Development"],
+        demoUrl:"https://crud-operations.kesug.com/index.php",
+        gitHubUrl: "https://github.com/Aakarsh-developer/CRUD-operations"
+    },
+    
     
 ]
 
