@@ -3,15 +3,24 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects=[
     {
         id:1,
+        title: "Webnest-Business-Site",
+        description: "I contributed to static pages like Privacy Policy, Terms & Conditions, Support, and Legal Notice with smooth animations and responsive layouts.",
+        image: "/Projects/webnest.png",
+        tags: ["React", "business", "Web Development"],
+        demoUrl:"https://prabhat-s-business-aakarsh-contribu.vercel.app/",
+        gitHubUrl: "https://github.com/Aakarsh-developer/prabhat-s-business-contribution"
+    },
+    {
+        id:2,
         title: "Virtual-Herbal-Garden",
         description: "Interactive 3D herbal plant website using React, Three.js, Tailwind CSS, Clerk auth, and Gemini AI for smart plant insights.",
         image: "/Projects/virtualherbalgarden.png",
-        tags: ["React", "Portfolio", "Web Development"],
+        tags: ["React", "Virtual", "Web Development"],
         demoUrl:"https://virtual-herbal-garden-tour.vercel.app/",
         gitHubUrl: "https://github.com/Aakarsh-developer/Verbal-Garden"
     },
     {
-        id:2,
+        id:3,
         title: "Portfolio",
         description: "A personal portfolio website to showcase my skills and projects.",
         image: "/Projects/portfolio.png",
@@ -20,7 +29,7 @@ const projects=[
         gitHubUrl: "https://github.com/Aakarsh-developer/Aakarsh-portfolio"
     },
     {
-        id:3,
+        id:4,
         title: "Student result dashboard",
         description: "A smart dashboard for students to view their results and performance over time.",
         image: "/Projects/dashbored.png",
@@ -28,15 +37,15 @@ const projects=[
         demoUrl:"https://tinyurl.com/Studentdashbored",
     },
     {
-        id:4,
+        id:5,
         title: "QuickCart",
         description: "A smart E-commerce website where the spinning wheel is to get discout=nt at all products.",
         image: "/Projects/QuickCart.png",
-        tags: ["React", "E-commerce", "Web Development"],
+        tags: ["React", "E-com", "Web Development"],
         demoUrl:"https://e-commerce-ns.vercel.app/",
         gitHubUrl: "https://github.com/Aakarsh-developer/E-commerce-"
     },{
-        id:5,
+        id:6,
         title: "Crud operations",
         description: "A simple CRUD application to perform Create, Read, Update and Delete operations on hotel booking data.",
         image: "/Projects/hotel.png",
