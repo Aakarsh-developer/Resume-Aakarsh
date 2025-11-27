@@ -29,7 +29,7 @@ export const AboutSection = () => {
                 </div>
                 
                 <div className="grid grid-cols-1 gap-6">
-                    <div className="gradient-border p-6 card-hover bg-[#0a0f1a]">
+                    <div className="gradient-border p-6 card-hover bg-card">
                         <div className="flex items-start gap-2">
                             <div className="p-3 rounded-full bg-primary/10">
                             <Code className="h-6 w-6 textprimary-"/>
@@ -40,7 +40,7 @@ export const AboutSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="gradient-border p-6 card-hover bg-[#0a0f1a]">
+                    <div className="gradient-border p-6 card-hover bg-card">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
                             <User className="h-6 w-6 textprimary-"/>
@@ -51,7 +51,7 @@ export const AboutSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="gradient-border p-6 card-hover bg-[#0a0f1a]">
+                    <div className="gradient-border p-6 card-hover bg-card">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
                             <Briefcase className="h-6 w-6 textprimary-"/>

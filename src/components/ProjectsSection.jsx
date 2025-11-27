@@ -7,8 +7,8 @@ const projects=[
         description: "I contributed to static pages like Privacy Policy, Terms & Conditions, Support, and Legal Notice with smooth animations and responsive layouts.",
         image: "/Projects/webnest.png",
         tags: ["React", "business", "Web Development"],
-        demoUrl:"https://prabhat-s-business-aakarsh-contribu.vercel.app/",
-        gitHubUrl: "https://github.com/Aakarsh-developer/prabhat-s-business-contribution"
+        demoUrl:"https://aakarsh-webnest.vercel.app/",
+        gitHubUrl: "https://github.com/Aakarsh-developer/Aakarsh-Webnest.git"
     },
     {
         id:2,
@@ -44,15 +44,16 @@ const projects=[
         tags: ["React", "E-com", "Web Development"],
         demoUrl:"https://e-commerce-ns.vercel.app/",
         gitHubUrl: "https://github.com/Aakarsh-developer/E-commerce-"
-    },{
-        id:6,
-        title: "Crud operations",
-        description: "A simple CRUD application to perform Create, Read, Update and Delete operations on hotel booking data.",
-        image: "/Projects/hotel.png",
-        tags: ["PHP", "CRUD", "Web Development"],
-        demoUrl:"https://crud-operations.kesug.com/index.php",
-        gitHubUrl: "https://github.com/Aakarsh-developer/CRUD-operations"
     },
+    // {
+    //     id:6,
+    //     title: "Crud operations",
+    //     description: "A simple CRUD application to perform Create, Read, Update and Delete operations on hotel booking data.",
+    //     image: "/Projects/hotel.png",
+    //     tags: ["PHP", "CRUD", "Web Development"],
+    //     demoUrl:"https://crud-operations.kesug.com/index.php",
+    //     gitHubUrl: "https://github.com/Aakarsh-developer/CRUD-operations"
+    // },
     
     
 ]
