@@ -42,7 +42,7 @@ const projects=[
         description: "A smart E-commerce website where the spinning wheel is to get discout=nt at all products.",
         image: "/Projects/QuickCart.png",
         tags: ["React", "E-com", "Web Development"],
-        demoUrl:"https://e-commerce-ns.vercel.app/",
+        demoUrl:"https://e-commerce-3975.vercel.app/",
         gitHubUrl: "https://github.com/Aakarsh-developer/E-commerce-"
     },
     // {
