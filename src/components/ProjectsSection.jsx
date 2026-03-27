@@ -45,17 +45,15 @@ const projects=[
         demoUrl:"https://e-commerce-3975.vercel.app/",
         gitHubUrl: "https://github.com/Aakarsh-developer/E-commerce-"
     },
-    // {
-    //     id:6,
-    //     title: "Crud operations",
-    //     description: "A simple CRUD application to perform Create, Read, Update and Delete operations on hotel booking data.",
-    //     image: "/Projects/hotel.png",
-    //     tags: ["PHP", "CRUD", "Web Development"],
-    //     demoUrl:"https://crud-operations.kesug.com/index.php",
-    //     gitHubUrl: "https://github.com/Aakarsh-developer/CRUD-operations"
-    // },
-    
-    
+    {
+    id:2,
+    title: "Havenly-Spaces",
+    description: "A full-stack room booking platform where users can explore, book, and manage accommodations with features like authentication, booking requests, and a smooth user interface.",
+    image: "/Projects/havenly.png",
+    tags: ["React", "Supabase", "Full Stack", "Web Development"],
+    demoUrl:"https://hevenly-spaces-accommodation.vercel.app/",
+    gitHubUrl: "https://github.com/Aakarsh-developer/Hevenly-Spaces-accommodation.git"
+    },   
 ]
 
 export const ProjectsSection = () => {
