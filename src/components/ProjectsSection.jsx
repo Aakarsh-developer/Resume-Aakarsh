@@ -49,7 +49,7 @@ const projects=[
     id:2,
     title: "Havenly-Spaces",
     description: "A full-stack room booking platform where users can explore, book, and manage accommodations with features like authentication, booking requests, and a smooth user interface.",
-    image: "/Projects/havenly.png",
+    image: "/Projects/havenlyspaces.png",
     tags: ["React", "Supabase", "Full Stack", "Web Development"],
     demoUrl:"https://hevenly-spaces-accommodation.vercel.app/",
     gitHubUrl: "https://github.com/Aakarsh-developer/Hevenly-Spaces-accommodation.git"
